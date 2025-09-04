@@ -1,0 +1,36 @@
+h1{
+    /* text-align: center; */
+    text-align: right;
+    /* border: solid; */
+    width :50%;
+    text-decoration:red underline wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    /* text-align: justify; */
+    /* line-height: normal; */
+    line-height: 2.5; 
+    letter-spacing: normal;
+    font-family:  'Lucida Sans',sans-serif;
+    
+}
+
+h2{
+    font-weight: normal;
+    text-decoration:blue overline;
+    text-decoration-style: double;
+    font-family:fantasy;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+h3{
+    color: brown;
+    font-weight: 700;
+    text-decoration:rgb(230, 21, 160) underline solid;
+}
+
