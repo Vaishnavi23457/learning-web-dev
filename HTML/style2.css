@@ -1,0 +1,106 @@
+/* Selectors */
+*{
+  font-family: 'Courier New';
+}
+
+h1,h3{
+  color:#b92b27;
+}
+
+#login{
+  color: aqua;
+  background-color:green;
+}
+
+#signup{
+  background-color: #b92b27;
+  color: white;
+}
+
+.upvote{
+  background-color: blue;
+  color: antiquewhite;
+}
+
+.click{
+  background-color: orange;
+  color: black;
+}
+/* p a{
+  color:purple ;
+  background-color: yellow;
+}
+ */
+
+header{
+  background-color: #e08c0f;
+}
+
+.post a{
+  color:purple ;
+  background-color: yellow;
+}
+
+nav ul li{
+  color:#c8106ce4;
+}
+nav a{
+  color: rgb(216, 6, 111);
+}
+input[type="text"]{
+  color: green;
+}
+input[type="password"]{
+  color: red;
+}
+
+/* Combinators */
+p+h3{
+  text-decoration: underline wavy;
+}
+
+.upvote + button{
+  color: beige;
+  background-color: rgb(42, 219, 50);
+}
+div > input{
+  background-color: blanchedalmond;
+  color: black;
+}
+body > input{
+  background-color: blanchedalmond;
+  color: black;
+}
+
+/* Pseudo Class */
+button:hover{
+  color: black;
+  background-color: white;
+}
+h3:hover{
+   text-decoration: none;
+}
+
+button:active{
+  color: black;
+  background-color: pink;
+}
+input[type="radio"]:checked +label{
+  color: yellow;
+  font-weight: bold;
+}
+.post:nth-of-type(1n){
+  background-color: #e08c0f;
+}
+
+
+/* Pseudo Elements */
+h1::first-letter{
+  color: aqua;
+}
+p::selection{
+  color: forestgreen;
+}
+
+
+

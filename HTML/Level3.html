@@ -1,0 +1,161 @@
+<h1>Tables in HTML</h1>
+<table border="Black" >  <!--border="Black"  part of CSS-->
+    <caption>Food Menu</caption>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Frooti</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Samosa</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Chips</td>
+        <td>20</td>
+    </tr>
+</table>
+<br>
+<br>
+<table border="Black" >
+    <caption>A testbtable with merged cells</caption>
+    <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red eyes</th>
+    </tr>
+    <tr>
+        <th>Height</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+    <tr>
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<hr>
+
+<h1>Forms in HTML</h1>
+<form>
+    <div>
+        <input type="text" placeholder="username">
+    </div>
+    <div>
+        <input type="password" placeholder="password">
+    </div>
+    
+    <input type="number">
+    <input type="date">
+
+</form>
+<form action="/server">
+    <!--label is used to connect the text and the value-->
+    
+    <div>
+        <label for="Username">Enter Username</label>
+        <input type="text" placeholder="Username" id="user"/>
+    </div>
+    <div>
+        <label for="Password">Enter Password</label>
+        <input type="password" placeholder="Password" id="pass"/>
+    </div>   
+        <button>Submit</button>
+        <button type="button">b1</button>
+        <button type="submit">b2</button>
+        <button type="reset">reset</button>
+
+        <input type="submit" value="click me"/>
+</form>
+<br>
+<br>
+<h2>Practice question</h2>
+<form action="https://www.google.com/search">
+    <input type="text" placeholder="search in google" name="q"/>
+    <button>submit</button>
+</form>
+
+<br>
+<form>
+    <input type="checkbox" name="info" id="age">
+    <label for="age">I am 18+</label>
+
+    <input type="checkbox" name="info" id="student" value="student">
+    <label for="student">I am a student</label>
+    <button>submit</button>
+</form>
+<br>
+<form>
+    Choose your fruit:
+    <input type="radio" name="fruit" id="apple" value="apple">
+    <label for="apple">apple</label>
+    <input type="radio" name="fruit" id="mango">
+    <label for="mango">mango</label>
+    <input type="radio" name="fruit" id="orange">
+    <label for="orange">orange</label>
+    <button>submit</button>
+<br>
+    Choose your city:
+    <select name="city" id="city">
+        <option>select your option</option>
+        <option value="hyd">Hyderabad</option>
+        <option value="mub">Mumbai</option>
+        <option value="del">Delhi</option>
+    </select>
+</form>
+<br>
+<br>
+<h2>Practice question</h2>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" name="name" />
+    <br /><br />
+    <label for="sex">Sex:</label>
+    <input type="radio" name="sex" id="male" value="male" />
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="female" value="female" />
+    <label for="female">Female</label>
+    <br /><br />
+    <label for="country">Country: </label>
+    <select name="country" id="country">
+    <option>Select an option</option>
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="nepal">Nepal</option>
+    <option value="canada">Canada</option>
+    </select>
+    <br /><br />
+    <label for="message">Message:</label><br />
+    <textarea name="message" id="message" cols="30"
+    rows="4"></textarea
+    ><br /><br />
+    <input type="checkbox" name="newsletter" id="newsletter" />
+    <label for="newsletter">Subscribe?</label>
+    <br /><br />
+    <label for="rating">Rate us our of 5:</label><br />
+    <input type="radio" name="rating" id="one" value="one" />
+    <label for="one">1</label><br />
+    <input type="radio" name="rating" id="two" value="two" />
+    <label for="two">2</label><br />
+    <input type="radio" name="rating" id="three" value="three" />
+    <label for="three">3</label><br />
+    <input type="radio" name="rating" id="four" value="four" >
+    <label for="four">4</label><br />
+    <input type="radio" name="rating" id="five" value="five" />
+    <label for="five">5</label><br />
+    <br /><br />
+    <button>Submit</button>
+</form>
